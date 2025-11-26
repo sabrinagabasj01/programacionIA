@@ -1,0 +1,376 @@
+{
+    "intents": [
+        {
+            "patterns": [
+                "Hola",
+                "Buenas",
+                "Ey",
+                "Qué pasa",
+                "Buenas tardes",
+                "Buenas noches"
+            ],
+            "responses": [
+                "¡Salaam, vecino! ¿Vienes por kebab o por terapia con salsa?",
+                "¡Buenas! Pasa, pasa, que aquí el único giro dramático es el de la carne.",
+                "Ey, bienvenid@ al templo del kebab: ¿pan, carne y drama picante?"
+            ]
+        },
+        {
+            "patterns": [
+                "Adios",
+                "Hasta luego",
+                "Nos vemos",
+                "Chao"
+            ],
+            "responses": [
+                "¡Adiós, héroe del barrio! La próxima la salsa corre por tu cuenta… de calorías.",
+                "¡Hasta luego! Que la carne siga girando y tu nevera nunca esté vacía.",
+                "Chao chao, no tardes mucho que el extractor echa de menos tu olor a kebab."
+            ]
+        },
+        {
+            "patterns": [
+                "Menu",
+                "Carta",
+                "Qué tenéis",
+                "Que puedo pedir",
+                "Opciones de comida"
+            ],
+            "responses": [
+                "Tenemos kebab, durum, falafel, platos, patatas… básicamente todo lo que tu dieta teme.",
+                "La carta es sencilla: cosas ricas envueltas en pan, bañadas en salsa y cero arrepentimiento.",
+                "Aquí tenemos más combinaciones de kebab que excusas para no ir al gimnasio."
+            ]
+        },
+        {
+            "patterns": [
+                "Kebab",
+                "Durum",
+                "Falafel",
+                "Hamburguesa"
+            ],
+            "responses": [
+                "Kebab clásico del barrio: pan suave, carne jugosa y tu conciencia mirando hacia otro lado.",
+                "Durum enrollado como tus dramas, pero mucho más fácil de digerir.",
+                "Falafel crujiente, para demostrar que ser veggie también puede ser épico."
+            ]
+        },
+        {
+            "patterns": [
+                "Salsa",
+                "Salsas",
+                "Qué salsas tenéis"
+            ],
+            "responses": [
+                "Salsa blanca, picante, barbacoa y la mítica mezcla ‘a ver qué pasa’.",
+                "Nuestra salsa picante está en el punto exacto entre ‘qué rico’ y ‘¿por qué hice esto?’.",
+                "La blanca es cremosa, la picante es peligrosa… y juntas son una relación tóxica perfecta."
+            ]
+        },
+        {
+            "patterns": [
+                "Precio",
+                "Cuanto cuesta",
+                "Es caro",
+                "Precios"
+            ],
+            "responses": [
+                "Tranquil@, aquí comes caliente sin que la tarjeta llore.",
+                "Nuestros precios son de barrio: honestos, como el olor a kebab a las 2 de la mañana.",
+                "Más barato que una noche de fiesta… y encima te acuerdas de lo que comiste."
+            ]
+        },
+        {
+            "patterns": [
+                "Domicilio",
+                "Delivery",
+                "A domicilio",
+                "Envio",
+                "Reparto"
+            ],
+            "responses": [
+                "Sí, llevamos kebab a tu sofá. Tú solo encárgate de elegir la serie.",
+                "Te lo llevamos a casa tan rápido que no te da tiempo ni a dudar.",
+                "Delivery oficial del barrio: llegamos antes de que el hambre se ponga dramático."
+            ]
+        },
+        {
+            "patterns": [
+                "Horario",
+                "Cuando abris",
+                "Cuando cerrais",
+                "Horarios"
+            ],
+            "responses": [
+                "Abrimos a mediodía y aguantamos hasta que el cuerpo y la plancha dicen basta.",
+                "De 12:00 a 00:00 aprox. Si ves luz y hueles kebab, estamos abiertos.",
+                "Estamos casi siempre: comida de día, salvavidas de madrugada."
+            ]
+        },
+        {
+            "patterns": [
+                "Donde esta",
+                "Ubicacion",
+                "Direccion",
+                "Como llegar"
+            ],
+            "responses": [
+                "Estamos en la esquina donde siempre huele bien y siempre hay alguien diciendo ‘el último, lo prometo’.",
+                "Dirección oficial: Calle del Kebab Amigo 24. Dirección real: sigue el olor.",
+                "Si ves un letrero, mucho brillo y gente feliz con papel de aluminio, estás cerca."
+            ]
+        },
+        {
+            "patterns": [
+                "Vegetariano",
+                "Opciones vegetarianas",
+                "Falafel teneis"
+            ],
+            "responses": [
+                "Claro, nuestro falafel está tan bueno que la carne lo mira con envidia.",
+                "Tenemos opciones veggies que no saben a castigo, palabra de kebabero.",
+                "Sí, falafel, ensaladas potentes y extras para que tu plato verde no sea triste."
+            ]
+        },
+        {
+            "patterns": [
+                "Oferta",
+                "Ofertas",
+                "Promocion",
+                "Descuento"
+            ],
+            "responses": [
+                "Nuestra mejor oferta: kebab grande, hambre pequeña.",
+                "Promoción secreta: si vienes con mucha hambre, te sabe el doble de bueno.",
+                "Descuentos de verdad los tenemos en los menús. El resto es marketing, aquí no."
+            ]
+        },
+        {
+            "patterns": [
+                "Bebida",
+                "Bebidas",
+                "Refrescos",
+                "Que refrescos teneis",
+                "Ayran"
+            ],
+            "responses": [
+                "Refrescos fríos, agua, Ayran… y cero juicios si te pides tres latas.",
+                "Tenemos más refrescos que espacio en tu nevera.",
+                "Coca-Cola, Fanta, Nestea, Ayran… elige tu poción para bajar el kebab."
+            ]
+        },
+        {
+            "patterns": [
+                "Postre",
+                "Postres",
+                "Dulce"
+            ],
+            "responses": [
+                "Baklava dulce, de ese que te hace decir ‘venga, ya que estoy…’.",
+                "Sí, tenemos postres. Pequeños, pero capaces de rematarte de felicidad.",
+                "Un baklava después del kebab es como los créditos finales: obligatorio."
+            ]
+        },
+        {
+            "patterns": [
+                "Pago",
+                "Pagos",
+                "Tarjeta",
+                "Efectivo",
+                "Bizum"
+            ],
+            "responses": [
+                "Aceptamos tarjeta, efectivo y ganas de repetir. Bizum según el jefe de turno.",
+                "Puedes pagar casi de cualquier forma, menos con ‘te lo pago luego’.",
+                "Tarjeta, cash… tú trae el hambre, que del resto hablamos."
+            ]
+        },
+        {
+            "patterns": [
+                "Recomendacion",
+                "Que me recomiendas",
+                "Que pido",
+                "No se que pedir"
+            ],
+            "responses": [
+                "Si dudas, kebab mixto con todo y salsa mixta. Clásico del barrio, cero fallo.",
+                "Te recomiendo el Durum Mixto XXL: como tus problemas, pero más sabroso.",
+                "Cuando no sepas qué pedir, pide menú. El destino quiere que comas patatas también."
+            ]
+        },
+        {
+            "patterns": [
+                "Tarde",
+                "Cuanto tarda",
+                "Tiempo de espera"
+            ],
+            "responses": [
+                "Tardamos menos que tú en elegir serie en Netflix.",
+                "Entre 10 y 15 minutitos, dependiendo del tráfico de hambre.",
+                "Lo justo para que te dé tiempo a mandar ese ‘¿kebab?’ al grupo."
+            ]
+        },
+        {
+            "patterns": [
+                "Picante",
+                "Muy picante",
+                "Pica mucho"
+            ],
+            "responses": [
+                "Tenemos picante, y pica cuando entra, pero más cuando sale.",
+                "La salsa picante no perdona, pero tampoco olvida. Tú decides el nivel.",
+                "Si dices ‘muy picante’, luego no vale decir ‘está fuerte, eh’."
+            ]
+        },
+        {
+            "patterns": [
+                "Gracias",
+                "Muchas gracias",
+                "Te lo agradezco"
+            ],
+            "responses": [
+                "¡A ti! Sin clientes con hambre no habría héroes del kebab como nosotros.",
+                "Gracias a ti, el kebab sigue girando y el barrio sigue feliz.",
+                "¡Un placer, vecino! Aquí tienes tu segunda casa… llena de salsas."
+            ]
+        },
+        {
+            "patterns": [
+                "Pedido",
+                "Hacer pedido",
+                "Quiero pedir",
+                "Voy a pedir"
+            ],
+            "responses": [
+                "Perfecto, dispara: ¿kebab, durum, plato… o locura máxima?",
+                "Listo para apuntar: tú pide, que la parrilla ya está calentando.",
+                "Dale, que hoy la dieta no se ha conectado al WiFi."
+            ]
+        },
+        {
+            "patterns": [
+                "Queja",
+                "Malo",
+                "No me gusto",
+                "Frio",
+                "Tarde"
+            ],
+            "responses": [
+                "Ay, eso suena peor que un kebab sin salsa. Cuéntame qué pasó y lo arreglamos.",
+                "Vaya, eso nos duele más que un pan quemado. Dime qué ha pasado, por favor.",
+                "Si algo salió mal, lo reparamos. Somos de barrio, pero serios con la comida."
+            ]
+        },
+        {
+            "patterns": [
+                "Abrir",
+                "Abrís hoy",
+                "Estais abiertos"
+            ],
+            "responses": [
+                "Si huele a kebab y ves luz, sí. Y si no, casi seguro también.",
+                "Abrimos más que tu nevera cuando no sabes qué cenar.",
+                "Hoy sí, hoy hay kebab. Mañana también. Estamos en racha."
+            ]
+        },
+        {
+            "patterns": [
+                "Reserva",
+                "Reservar",
+                "Poner a mi nombre"
+            ],
+            "responses": [
+                "No hace falta etiqueta, esto es el kebab del barrio, pero dime para cuántos y a qué hora.",
+                "Puedes decirme hora y nombre y te guardamos sitio… y servilletas.",
+                "Reserva informal de barrio aceptada: tú vienes y nosotros te damos de comer."
+            ]
+        },
+        {
+            "patterns": [
+                "Qué tal?"
+            ],
+            "responses": [
+                "Bien"
+            ]
+        }
+    ],
+    "products": [
+        {
+            "name": "Kebab Clásico Pollo",
+            "description": "Pan de pita, pollo jugoso, ensalada fresca y salsa a tu elección.",
+            "price": 5.5,
+            "currency": "EUR",
+            "type": "kebab"
+        },
+        {
+            "name": "Kebab Mixto Ternera y Pollo",
+            "description": "La pareja perfecta: ternera y pollo dando vueltas solo para ti.",
+            "price": 6.0,
+            "currency": "EUR",
+            "type": "kebab"
+        },
+        {
+            "name": "Durum Mixto XXL",
+            "description": "Durum enorme, relleno a tope de carne, ensalada y salsa mixta.",
+            "price": 7.5,
+            "currency": "EUR",
+            "type": "durum"
+        },
+        {
+            "name": "Falafel Veggie",
+            "description": "Bocadillo o durum de falafel crujiente con verduras y salsa tahini.",
+            "price": 6.2,
+            "currency": "EUR",
+            "type": "vegetariano"
+        },
+        {
+            "name": "Plato Kebab Completo",
+            "description": "Carne al plato con ensalada, arroz o patatas y pan aparte.",
+            "price": 8.0,
+            "currency": "EUR",
+            "type": "plato"
+        },
+        {
+            "name": "Menú Estudiante",
+            "description": "Kebab pequeño + patatas + lata de refresco. Ideal para sobrevivir a exámenes.",
+            "price": 7.0,
+            "currency": "EUR",
+            "type": "menu"
+        },
+        {
+            "name": "Menú Nocturno",
+            "description": "Durum mixto + patatas grandes + refresco. Pack anti-resaca adelantada.",
+            "price": 9.5,
+            "currency": "EUR",
+            "type": "menu"
+        },
+        {
+            "name": "Lahmacun Turco",
+            "description": "Masa fina con carne especiada, verduras y un toque de limón.",
+            "price": 6.8,
+            "currency": "EUR",
+            "type": "especialidad"
+        },
+        {
+            "name": "Patatas Kebaberas",
+            "description": "Ración de patatas fritas con salsa blanca y picante por encima.",
+            "price": 3.5,
+            "currency": "EUR",
+            "type": "acompañamiento"
+        },
+        {
+            "name": "Baklava Casero",
+            "description": "Dulce de hojaldre con frutos secos y miel. Pequeño pero matón.",
+            "price": 2.5,
+            "currency": "EUR",
+            "type": "postre"
+        },
+        {
+            "name": "Combo Familiar Kebab",
+            "description": "4 kebabs a elegir + 2 raciones de patatas + 4 bebidas.",
+            "price": 28.0,
+            "currency": "EUR",
+            "type": "menu"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+  "intents": [
+    {
+      "patterns": ["Hola", "Buenas", "Como estas?"],
+      "responses": ["Hola! En que puedo ayudarte?", "Buenas! Que necesitas?"]
+    },
+    {
+      "patterns": ["Adios", "Hasta luego"],
+      "responses": ["Adios! Que tengas un buen dia.", "Hasta luego, cuidate!"]
+    }
+  ]
+}

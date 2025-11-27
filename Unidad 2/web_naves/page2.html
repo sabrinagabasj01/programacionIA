@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concesionario Galáctico | Modelos Exclusivos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@300;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-outline" id="cursor-outline"></div>
+
+    <header id="main-header">
+        <div class="container header-content">
+            <div class="logo">
+                <h1>🚀 Concesionario <span class="highlight">Galáctico</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="index.html#catalogo">Catálogo</a></li>
+                    <li><a href="index.html#ofertas">Ofertas</a></li>
+                    <li><a href="index.html#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container" style="margin-top: 100px;">
+        <h2 class="section-title">Modelos Exclusivos</h2>
+        <section class="naves-grid">
+            <!-- Nave 4 -->
+            <article class="nave-card" data-id="104">
+                <div class="img-container">
+                    <!-- Reusamos imágenes para no generar más, simulando catálogo -->
+                    <img src="img/spaceship_explorer_1764076495129.png" alt="Yate Estelar">
+                </div>
+                <div class="info">
+                    <h3>Yate Estelar 'Lujo'</h3>
+                    <div class="specs">
+                        <p><span class="label">Clase:</span> Lujo</p>
+                        <p><span class="label">Confort:</span> Máximo</p>
+                    </div>
+                    <p class="precio">5,000,000 cr</p>
+                    <p class="descripcion">Para el dictador galáctico que hay en ti. Asientos de piel de wookiee
+                        (sintética, claro).</p>
+                    <button class="btn-comprar">Reservar</button>
+                </div>
+            </article>
+
+            <!-- Nave 5 -->
+            <article class="nave-card" data-id="105">
+                <div class="img-container">
+                    <img src="img/spaceship_fighter_1764076508857.png" alt="Interceptor Veloz">
+                </div>
+                <div class="info">
+                    <h3>Interceptor 'Rayo'</h3>
+                    <div class="specs">
+                        <p><span class="label">Clase:</span> Combate</p>
+                        <p><span class="label">Velocidad:</span> Alta</p>
+                    </div>
+                    <p class="precio">1,800,000 cr</p>
+                    <p class="descripcion">Menos blindaje, más velocidad. Si te dan, explotas. Si no te dan, ganas.</p>
+                    <button class="btn-comprar">Reservar</button>
+                </div>
+            </article>
+
+            <!-- Nave 6 -->
+            <article class="nave-card" data-id="106">
+                <div class="img-container">
+                    <img src="img/spaceship_cargo_1764076524562.png" alt="Minero Profundo">
+                </div>
+                <div class="info">
+                    <h3>Minero 'Topo' X</h3>
+                    <div class="specs">
+                        <p><span class="label">Clase:</span> Industrial</p>
+                        <p><span class="label">Herramientas:</span> Láser</p>
+                    </div>
+                    <p class="precio">900,000 cr</p>
+                    <p class="descripcion">Equipada con láseres de minería. No apta para combate, a menos que el enemigo
+                        sea una roca.</p>
+                    <button class="btn-comprar">Reservar</button>
+                </div>
+            </article>
+        </section>
+
+        <div class="pagination">
+            <a href="index.html" class="btn-pagination">&larr; Anterior</a>
+            <a href="page3.html" class="btn-pagination">Siguiente Página &rarr;</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 3025 Concesionario Galáctico. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Custom Cursor
+        const cursorDot = document.getElementById("cursor-dot");
+        const cursorOutline = document.getElementById("cursor-outline");
+
+        window.addEventListener("mousemove", function (e) {
+            const posX = e.clientX;
+            const posY = e.clientY;
+
+            cursorDot.style.left = `${posX}px`;
+            cursorDot.style.top = `${posY}px`;
+
+            cursorOutline.animate({
+                left: `${posX}px`,
+                top: `${posY}px`
+            }, { duration: 500, fill: "forwards" });
+        });
+
+        // Click Laser Effect
+        window.addEventListener('click', function (e) {
+            const laser = document.createElement('div');
+            laser.classList.add('laser-shot');
+            laser.style.left = `${e.clientX}px`;
+            laser.style.top = `${e.clientY}px`;
+            document.body.appendChild(laser);
+            setTimeout(() => { laser.remove(); }, 400);
+        });
+    </script>
+</body>
+
+</html>

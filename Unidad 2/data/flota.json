@@ -1,0 +1,37 @@
+{
+  "flota": [
+    {
+      "id": "S001",
+      "nombre": "Estrella Fugaz",
+      "clase": "Exploración",
+      "tripulacion": 4,
+      "estado": "Activo",
+      "equipamiento": ["Escáner de largo alcance", "Motores iónicos"]
+    },
+    {
+      "id": "S002",
+      "nombre": "Martillo de Thor",
+      "clase": "Combate",
+      "tripulacion": 1,
+      "estado": "Mantenimiento",
+      "equipamiento": ["Láseres de pulso", "Escudos deflectores"]
+    },
+    {
+      "id": "S003",
+      "nombre": "Nómada Galáctico",
+      "clase": "Transporte",
+      "tripulacion": 20,
+      "estado": "Activo",
+      "equipamiento": ["Bodega de carga ampliada", "Sistemas de soporte vital"]
+    },
+    {
+      "id": "S004",
+      "nombre": "Sombra Silenciosa",
+      "clase": "Sigilo",
+      "tripulacion": 2,
+      "estado": "Desconocido",
+      "equipamiento": ["Camuflaje óptico", "Motores silenciosos"]
+    }
+  ],
+  "fecha_actualizacion": "3025-11-25"
+}

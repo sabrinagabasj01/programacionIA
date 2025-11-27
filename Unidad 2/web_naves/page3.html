@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concesionario Galáctico | Liquidación</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@300;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-outline" id="cursor-outline"></div>
+
+    <header id="main-header">
+        <div class="container header-content">
+            <div class="logo">
+                <h1>🚀 Concesionario <span class="highlight">Galáctico</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="index.html#catalogo">Catálogo</a></li>
+                    <li><a href="index.html#ofertas">Ofertas</a></li>
+                    <li><a href="index.html#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container" style="margin-top: 100px;">
+        <h2 class="section-title">Liquidación y Chatarra</h2>
+        <section class="naves-grid">
+            <!-- Nave 7 -->
+            <article class="nave-card" data-id="107">
+                <div class="img-container">
+                    <img src="img/spaceship_cargo_1764076524562.png" alt="Chatarra Voladora">
+                </div>
+                <div class="info">
+                    <h3>El 'Halcón' (Copia)</h3>
+                    <div class="specs">
+                        <p><span class="label">Clase:</span> Contrabando</p>
+                        <p><span class="label">Estado:</span> Malo</p>
+                    </div>
+                    <p class="precio">500 cr</p>
+                    <p class="descripcion">No parece mucho, pero... bueno, en realidad no es mucho. Necesita
+                        reparaciones urgentes.</p>
+                    <button class="btn-comprar">Reservar</button>
+                </div>
+            </article>
+
+            <!-- Nave 8 -->
+            <article class="nave-card" data-id="108">
+                <div class="img-container">
+                    <img src="img/spaceship_explorer_1764076495129.png" alt="Sonda Automática">
+                </div>
+                <div class="info">
+                    <h3>Sonda 'Ojo'</h3>
+                    <div class="specs">
+                        <p><span class="label">Clase:</span> Dron</p>
+                        <p><span class="label">Piloto:</span> No</p>
+                    </div>
+                    <p class="precio">150,000 cr</p>
+                    <p class="descripcion">Pequeña, discreta y sin piloto. Perfecta para espiar a tus vecinos
+                        planetarios.</p>
+                    <button class="btn-comprar">Reservar</button>
+                </div>
+            </article>
+        </section>
+
+        <div class="pagination">
+            <a href="page2.html" class="btn-pagination">&larr; Anterior</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 3025 Concesionario Galáctico. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Custom Cursor
+        const cursorDot = document.getElementById("cursor-dot");
+        const cursorOutline = document.getElementById("cursor-outline");
+
+        window.addEventListener("mousemove", function (e) {
+            const posX = e.clientX;
+            const posY = e.clientY;
+
+            cursorDot.style.left = `${posX}px`;
+            cursorDot.style.top = `${posY}px`;
+
+            cursorOutline.animate({
+                left: `${posX}px`,
+                top: `${posY}px`
+            }, { duration: 500, fill: "forwards" });
+        });
+
+        // Click Laser Effect
+        window.addEventListener('click', function (e) {
+            const laser = document.createElement('div');
+            laser.classList.add('laser-shot');
+            laser.style.left = `${e.clientX}px`;
+            laser.style.top = `${e.clientY}px`;
+            document.body.appendChild(laser);
+            setTimeout(() => { laser.remove(); }, 400);
+        });
+    </script>
+</body>
+
+</html>

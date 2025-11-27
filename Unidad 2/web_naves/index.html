@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concesionario Galáctico | Naves Premium</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@300;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-outline" id="cursor-outline"></div>
+
+    <header id="main-header">
+        <div class="container header-content">
+            <div class="logo">
+                <h1>🚀 Concesionario <span class="highlight">Galáctico</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Inicio</a></li>
+                    <li><a href="#catalogo">Catálogo</a></li>
+                    <li><a href="#ofertas">Ofertas</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <div class="hero-bg">
+            <video src="img/Video_nave.mp4" autoplay muted loop playsinline class="hero-video"></video>
+        </div>
+        <div class="hero-content container">
+            <h2>Explora la Galaxia con <span class="highlight">Estilo</span></h2>
+            <p>Las naves más avanzadas del Sector 7G. Velocidad, potencia y lujo en cada parsec.</p>
+            <a href="#catalogo" class="btn-hero">Ver Catálogo</a>
+        </div>
+        <div class="fly-ship-container">
+            <img src="img/spaceship_extra_1.png" alt="Nave volando" class="fly-ship">
+        </div>
+    </section>
+
+    <section id="ofertas" class="offers-section">
+        <div class="container">
+            <div class="offer-banner">
+                <h3>🔥 Oferta del Mes: Caza 'Furia' MK-II</h3>
+                <p>¡Descuento del 15% si pagas en Créditos Imperiales!</p>
+            </div>
+        </div>
+    </section>
+
+    <main id="catalogo" class="container">
+        <h2 class="section-title">Nuestra Flota</h2>
+        <section class="naves-grid">
+            <!-- Nave 1 -->
+            <article class="nave-card" data-id="101">
+                <div class="img-container">
+                    <img src="img/spaceship_explorer_1764076495129.png" alt="Exploradora X-1">
+                </div>
+                <div class="info">
+                    <h3>Exploradora X-1</h3>
+                    <div class="specs">
+                        <p><span class="label">Clase:</span> Exploración</p>
+                        <p><span class="label">Motor:</span> Salto Cuántico v3</p>
+                    </div>
+                    <p class="precio">1,500,000 cr</p>
+                    <p class="descripcion">Ideal para perderse en el borde exterior. Incluye cafetera cuántica y
+                        asientos de piel de Wookiee sintética.</p>
+                    <button class="btn-comprar">Reservar</button>
+                </div>
+            </article>
+
+            <!-- Nave 2 -->
+            <article class="nave-card featured" data-id="102">
+                <div class="badge">Más Vendido</div>
+                <div class="img-container">
+                    <img src="img/spaceship_fighter_1764076508857.png" alt="Caza Estelar 'Furia'">
+                </div>
+                <div class="info">
+                    <h3>Caza 'Furia' MK-II</h3>
+                    <div class="specs">
+                        <p><span class="label">Clase:</span> Combate</p>
+                        <p><span class="label">Armas:</span> Láser Doble</p>
+                    </div>
+                    <p class="precio">2,300,000 cr</p>
+                    <p class="descripcion">Rápida, letal y roja. Porque el rojo corre más. No incluye seguro de vida.
+                    </p>
+                    <button class="btn-comprar">Reservar</button>
+                </div>
+            </article>
+
+            <!-- Nave 3 -->
+            <article class="nave-card" data-id="103">
+                <div class="img-container">
+                    <img src="img/spaceship_cargo_1764076524562.png" alt="Carguero Pesado 'Mula'">
+                </div>
+                <div class="info">
+                    <h3>Carguero 'Mula' T-500</h3>
+                    <div class="specs">
+                        <p><span class="label">Clase:</span> Transporte</p>
+                        <p><span class="label">Carga:</span> 500T</p>
+                    </div>
+                    <p class="precio">850,000 cr</p>
+                    <p class="descripcion">Fea pero robusta. Carga hasta 500 toneladas de mineral o mercancía "no
+                        preguntes".</p>
+                    <button class="btn-comprar">Reservar</button>
+                </div>
+            </article>
+
+            <!-- Nave 4 (New) -->
+            <article class="nave-card" data-id="104">
+                <div class="img-container">
+                    <img src="img/spaceship_extra_1.png" alt="Velocista S-9">
+                </div>
+                <div class="info">
+                    <h3>Velocista S-9</h3>
+                    <div class="specs">
+                        <p><span class="label">Clase:</span> Carreras</p>
+                        <p><span class="label">Velocidad:</span> Absurda</p>
+                    </div>
+                    <p class="precio">3,000,000 cr</p>
+                    <p class="descripcion">Diseñada para ganar. Si no ganas, es culpa del piloto.</p>
+                    <button class="btn-comprar">Reservar</button>
+                </div>
+            </article>
+
+            <!-- Nave 5 (New Pink) -->
+            <article class="nave-card" data-id="105">
+                <div class="img-container">
+                    <img src="img/spaceship_pink.png" alt="Nave 'Pinky' Z-1">
+                </div>
+                <div class="info">
+                    <h3>Nave 'Pinky' Z-1</h3>
+                    <div class="specs">
+                        <p><span class="label">Clase:</span> Kawaii</p>
+                        <p><span class="label">Estilo:</span> 100%</p>
+                    </div>
+                    <p class="precio">999,999 cr</p>
+                    <p class="descripcion">La nave más adorable de la galaxia. Dispara arcoíris (metafóricamente).</p>
+                    <button class="btn-comprar">Reservar</button>
+                </div>
+            </article>
+        </section>
+
+        <div class="pagination">
+            <a href="page2.html" class="btn-pagination">Siguiente Página &rarr;</a>
+        </div>
+    </main>
+
+    <section id="contacto" class="contact-section">
+        <div class="container contact-grid">
+            <div class="contact-form-wrapper">
+                <h2>Contacta con la Base</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nombre / ID de Piloto</label>
+                        <input type="text" id="name" placeholder="Ej: Han Solo" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Frecuencia de Comms (Email)</label>
+                        <input type="email" id="email" placeholder="piloto@alianza.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="ship">Nave de Interés</label>
+                        <select id="ship">
+                            <option value="general">Consulta General</option>
+                            <option value="x1">Exploradora X-1</option>
+                            <option value="furia">Caza 'Furia'</option>
+                            <option value="mula">Carguero 'Mula'</option>
+                            <option value="s9">Velocista S-9</option>
+                            <option value="titan">Destructor 'Titán'</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" rows="4" placeholder="Solicito prueba de vuelo..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Enviar Transmisión</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <div class="map-container">
+                    <img src="img/map_placeholder.png" alt="Mapa del Sector">
+                    <div class="location-pin"></div>
+                </div>
+                <div class="info-details">
+                    <h3>Ubicación</h3>
+                    <p>Sector 7G, Estación Espacial "Omega"</p>
+                    <p>Hangar 42-B</p>
+                    <h3>Comunicaciones</h3>
+                    <p>Holo-Red: 555-SPACE-CARS</p>
+                    <p>Frecuencia: 142.85 MHz</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 3025 Concesionario Galáctico. Todos los derechos reservados.</p>
+            <div class="socials">
+                <a href="#">HoloNet</a>
+                <a href="#">SpaceGram</a>
+                <a href="#">GalacticBook</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Custom Cursor
+        const cursorDot = document.getElementById("cursor-dot");
+        const cursorOutline = document.getElementById("cursor-outline");
+
+        window.addEventListener("mousemove", function (e) {
+            const posX = e.clientX;
+            const posY = e.clientY;
+
+            cursorDot.style.left = `${posX}px`;
+            cursorDot.style.top = `${posY}px`;
+
+            // cursorOutline.style.left = `${posX}px`;
+            // cursorOutline.style.top = `${posY}px`;
+
+            cursorOutline.animate({
+                left: `${posX}px`,
+                top: `${posY}px`
+            }, { duration: 500, fill: "forwards" });
+        });
+
+        // Form Handling
+        document.getElementById('contactForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            alert('Transmisión enviada con éxito. Un droide de protocolo se pondrá en contacto contigo.');
+            this.reset();
+        });
+
+        // Click Laser Effect
+        window.addEventListener('click', function (e) {
+            const laser = document.createElement('div');
+            laser.classList.add('laser-shot');
+            laser.style.left = `${e.clientX}px`;
+            laser.style.top = `${e.clientY}px`;
+            document.body.appendChild(laser);
+
+            // Remove element after animation
+            setTimeout(() => {
+                laser.remove();
+            }, 400);
+        });
+
+        // Header Scroll Effect
+        window.addEventListener('scroll', function () {
+            const header = document.getElementById('main-header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Parallax Effect for Video
+        window.addEventListener('scroll', function () {
+            const heroBg = document.querySelector('.hero-bg');
+            const scrollPosition = window.pageYOffset;
+            // Move background down at 50% speed of scroll
+            heroBg.style.transform = `translateY(${scrollPosition * 0.5}px)`;
+        });
+    </script>
+</body>
+
+</html>

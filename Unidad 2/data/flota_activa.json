@@ -1,26 +1,24 @@
-{
-    "flota_activa": [
-        {
-            "id": "S001",
-            "nombre": "Estrella Fugaz",
-            "clase": "Exploraci\u00f3n",
-            "tripulacion": 4,
-            "estado": "Activo",
-            "equipamiento": [
-                "Esc\u00e1ner de largo alcance",
-                "Motores i\u00f3nicos"
-            ]
-        },
-        {
-            "id": "S003",
-            "nombre": "N\u00f3mada Gal\u00e1ctico",
-            "clase": "Transporte",
-            "tripulacion": 20,
-            "estado": "Activo",
-            "equipamiento": [
-                "Bodega de carga ampliada",
-                "Sistemas de soporte vital"
-            ]
-        }
+[
+  {
+    "id": "S001",
+    "nombre": "Estrella Fugaz",
+    "clase": "Exploración",
+    "tripulacion": 4,
+    "estado": "Activo",
+    "equipamiento": [
+      "Escáner de largo alcance",
+      "Motores iónicos"
     ]
-}
+  },
+  {
+    "id": "S003",
+    "nombre": "Nómada Galáctico",
+    "clase": "Transporte",
+    "tripulacion": 20,
+    "estado": "Activo",
+    "equipamiento": [
+      "Bodega de carga ampliada",
+      "Sistemas de soporte vital"
+    ]
+  }
+]
